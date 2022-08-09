@@ -6,7 +6,7 @@
 <title>DataLoader</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="dc.created" content="2022-08-05">
-<meta name="description" content="declaration: package: data, class: DataLoader">
+<meta name="description" content="declaration: package: com.idc.data, class: DataLoader">
 <meta name="generator" content="javadoc/ClassWriterImpl">
 <link rel="stylesheet" type="text/css" href="../stylesheet.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../script-dir/jquery-ui.css" title="Style">
@@ -20,7 +20,7 @@
 <script type="text/javascript" src="../script-dir/jquery-ui.js"></script>
 </head>
 <body class="class-declaration">
-<script type="text/javascript">var data = {"i0":10,"i1":10,"i2":10,"i3":10};
+<script type="text/javascript">var com.idc.data = {"i0":10,"i1":10,"i2":10,"i3":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -83,18 +83,18 @@ loadScripts(document, 'script');</script>
 <main role="main">
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">data</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">com.idc.data</a></div>
 <h1 title="Class DataLoader" class="title">Class DataLoader</h1>
 </div>
 <div class="contentContainer">
 <div class="inheritance" title="Inheritance Tree">java.lang.Object
-<div class="inheritance">data.DataLoader</div>
+<div class="inheritance">com.idc.loader.DataLoader</div>
 </div>
 <section class="description">
 <hr>
 <pre>public class <span class="typeNameLabel">DataLoader</span>
 extends java.lang.Object</pre>
-<div class="block">The DataLoader class is used to read data from the given file.</div>
+<div class="block">The DataLoader class is used to read com.idc.data from the given file.</div>
 <dl>
 <dt><span class="simpleTagLabel">Version:</span></dt>
 <dd>1.0</dd>
@@ -180,13 +180,13 @@ extends java.lang.Object</pre>
 <tbody>
 <tr class="altColor" id="i0">
 <td class="colFirst"><code>private void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#formatUnitColumn(java.util.List)">formatUnitColumn</a></span>&#8203;(java.util.List&lt;<a href="CSVRow.html" title="class in data">CSVRow</a>&gt;&nbsp;csvRows)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#formatUnitColumn(java.util.List)">formatUnitColumn</a></span>&#8203;(java.util.List&lt;<a href="CSVRow.html" title="class in com.idc.data">CSVRow</a>&gt;&nbsp;csvRows)</code></th>
 <td class="colLast">
 <div class="block">Format units in list of CSVRow objects.</div>
 </td>
 </tr>
 <tr class="rowColor" id="i1">
-<td class="colFirst"><code><a href="DataTable.html" title="class in data">DataTable</a></code></td>
+<td class="colFirst"><code><a href="DataTable.html" title="class in com.idc.data">DataTable</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getDataTable(java.lang.String,java.lang.String)">getDataTable</a></span>&#8203;(java.lang.String&nbsp;country,
 java.lang.String&nbsp;timescale)</code></th>
 <td class="colLast">
@@ -194,10 +194,10 @@ java.lang.String&nbsp;timescale)</code></th>
 </td>
 </tr>
 <tr class="altColor" id="i2">
-<td class="colFirst"><code>java.util.List&lt;<a href="CSVRow.html" title="class in data">CSVRow</a>&gt;</code></td>
+<td class="colFirst"><code>java.util.List&lt;<a href="CSVRow.html" title="class in com.idc.data">CSVRow</a>&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getRawData()">getRawData</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Get raw/no changed data.</div>
+<div class="block">Get raw/no changed com.idc.data.</div>
 </td>
 </tr>
 <tr class="rowColor" id="i3">
@@ -271,13 +271,13 @@ int&nbsp;precision)</code></th>
 <li class="blockList">
 <section class="detail">
 <h3><a id="getDataTable(java.lang.String,java.lang.String)">getDataTable</a></h3>
-<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType"><a href="DataTable.html" title="class in data">DataTable</a></span>&nbsp;<span class="memberName">getDataTable</span>&#8203;(<span class="arguments">java.lang.String&nbsp;country,
+<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType"><a href="DataTable.html" title="class in com.idc.data">DataTable</a></span>&nbsp;<span class="memberName">getDataTable</span>&#8203;(<span class="arguments">java.lang.String&nbsp;country,
 java.lang.String&nbsp;timescale)</span></div>
 <div class="block">Gets DataTable object for the selected country and timescale. Share value is also computed.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>country</code> - Country for which we want to get data.</dd>
-<dd><code>timescale</code> - Timescale for which we want to get data.</dd>
+<dd><code>country</code> - Country for which we want to get com.idc.data.</dd>
+<dd><code>timescale</code> - Timescale for which we want to get com.idc.data.</dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>DataTable object for given country and timescale with computed share value</dd>
 </dl>
@@ -286,8 +286,8 @@ java.lang.String&nbsp;timescale)</span></div>
 <li class="blockList">
 <section class="detail">
 <h3><a id="getRawData()">getRawData</a></h3>
-<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">java.util.List&lt;<a href="CSVRow.html" title="class in data">CSVRow</a>&gt;</span>&nbsp;<span class="memberName">getRawData</span>()</div>
-<div class="block">Get raw/no changed data.</div>
+<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">java.util.List&lt;<a href="CSVRow.html" title="class in com.idc.data">CSVRow</a>&gt;</span>&nbsp;<span class="memberName">getRawData</span>()</div>
+<div class="block">Get raw/no changed com.idc.data.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>List of all csvRows without share value.</dd>
@@ -312,7 +312,7 @@ int&nbsp;precision)</span></div>
 <li class="blockList">
 <section class="detail">
 <h3><a id="formatUnitColumn(java.util.List)">formatUnitColumn</a></h3>
-<div class="memberSignature"><span class="modifiers">private</span>&nbsp;<span class="returnType">void</span>&nbsp;<span class="memberName">formatUnitColumn</span>&#8203;(<span class="arguments">java.util.List&lt;<a href="CSVRow.html" title="class in data">CSVRow</a>&gt;&nbsp;csvRows)</span></div>
+<div class="memberSignature"><span class="modifiers">private</span>&nbsp;<span class="returnType">void</span>&nbsp;<span class="memberName">formatUnitColumn</span>&#8203;(<span class="arguments">java.util.List&lt;<a href="CSVRow.html" title="class in com.idc.data">CSVRow</a>&gt;&nbsp;csvRows)</span></div>
 <div class="block">Format units in list of CSVRow objects.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>

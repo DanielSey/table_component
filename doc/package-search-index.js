@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"data"},{"l":"export"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.idc"},{"l":"com.idc.export"},{"l":"com.idc.loader"},{"l":"com.idc.model"}]
